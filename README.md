@@ -1,7 +1,6 @@
 # mypagecomments
 
-A react webapp seed in case I ever need one.
-Includes React static frontend and node/express backend server if needed.
+Frontend/backend/build+deploy code for `https://mypagecomments.com` a site that allows users to analyze their Facebook page comments.
 
 ## Setup
 
@@ -52,4 +51,4 @@ gulp deploy
 ## Icons
 Use [realfavicongenerator](http://realfavicongenerator.net/)
 
-Based off [Marvin Boilerplate](https://github.com/workco/marvin)
+Based off [Marvin Boilerplate](https://github.com/glebpro/gleb-react-seed)
