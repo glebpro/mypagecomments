@@ -1,0 +1,68 @@
+
+@import "../../../scss/toolkit";
+
+.SideMenu {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 .5rem 0;
+  height: $side-menu-collapsed-height;
+  align-self: flex-start;
+  order: 1;
+
+  @include md{
+    margin: 0;
+    width: 18rem;
+    height: 100%;
+  }
+
+  @include lg {
+    width: 20rem;
+  }
+}
+
+
+.SideMenu-links{
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  height: $side-menu-collapsed-height;
+
+  @include md{
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+.SideMenu-homelink{
+    width: 100%;
+}
+
+.SideMenu-logo{
+  margin: 0 0 .5rem 0;
+  height: $side-menu-collapsed-height;
+
+  @include md{
+    height: initial;
+  };
+}
+
+.SideMenu-logo > img{
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+
+  @include md{
+    height: initial;
+  };
+}
+
+.SideMenu-link{
+  word-wrap: break-word;
+  margin: 0 0 .5rem 0;
+  height: auto;
+  display: none;
+
+  @include md{
+    display: inline-block; // techinally should be using %visually hidden
+  }
+}

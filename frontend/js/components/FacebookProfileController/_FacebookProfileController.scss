@@ -1,0 +1,32 @@
+
+@import "../../../scss/toolkit";
+
+
+.FacebookProfileController{
+  align-items: center;
+  display: flex;
+  margin: 0;
+}
+
+.FacebookProfileController > *{
+  padding: 0 .5em 0 .5em;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.FacebookProfileController-name{
+  margin: 0;
+  order: 1;
+}
+.FacebookProfileController > img{
+  order: 2;
+}
+.FacebookProfileController > a{
+  order: 3;
+}
+
+.FacebookPagesController-post{
+  list-style: none;
+  padding: 0;
+  min-width: 20em;
+}

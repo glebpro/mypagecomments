@@ -1,0 +1,100 @@
+
+@import "../../../scss/toolkit";
+
+.FacebookPagesController{
+  max-width: 35em;
+}
+
+.FacebookPagesController-available-pages{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.FacebookPage{
+  display: flex;
+  align-items: center;
+  margin: .5em 0 .5em 0;
+  border: 1px solid grey;
+}
+
+.FacebookPage img{
+  margin: .5em
+}
+
+.FacebookPage-name{
+  margin: 0;
+}
+
+.FacebookPage-likes{
+  color: blue;
+  margin: 0;
+}
+
+.FacebookPage-description{
+  margin: 0;
+}
+
+.FacebookPagesController-posts{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.FacebookPost{
+  margin: .5em 0 .5em 0;
+  padding: .3em;
+  border: 1px solid grey;
+}
+
+.FacebookPost-post{
+  margin: 0;
+}
+.FacebookPost{
+  display: flex;
+  align-items: center;
+}
+
+.FacebookPost img{
+  margin: .5em;
+}
+
+.FacebookPost-meta{
+  font-size: .7em;
+}
+
+.FacebookPost-meta p{
+  display: inline-block;
+}
+
+.FacebookPost-meta-likes{
+  color: blue;
+  margin: 0 .5em 0 0;
+}
+
+.FacebookPost-meta-created{
+    margin: 0 .5em 0 0;
+}
+.FacebookPost-comments > p{
+  margin: 0;
+}
+
+.FacebookPost-comments > ul{
+  font-size: .9em;
+}
+
+.FacebookPost-sentiment button{
+  padding: .3em;
+  font-size: .7em;
+}
+
+.FacebookPost-sentiment img{
+  height: 2em;
+  margin: 0;
+}
+
+.FacebookPost-comments > ul > li >p{
+  font-size: .9em;
+  font-style: italic;
+  margin: 0;
+}

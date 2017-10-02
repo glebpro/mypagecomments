@@ -1,0 +1,1 @@
+NLTK comes with an inbuilt sentiment analyser module – nltk.sentiment.vader—that can analyse a piece of text and classify the sentences under positive, negative and neutral polarity of sentiments. A code snippet of how this could be done is shown below.
